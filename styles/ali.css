@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -14,11 +15,11 @@ a {
 
 
 body{
-   
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-family: "Vazirmatn", serif;
 
 }
 
@@ -46,7 +47,7 @@ form {
     width: 100%;
     gap: 5px;
 }
-input {
+form input {
     flex: 1;
     padding: 10px;
     border: 1px solid #eee;
@@ -83,6 +84,11 @@ li {
     justify-content: space-between;
     gap: 1rem;
     border: 1px solid #000;
+    width: 350px;
+}
+
+.checkbox{
+    width: 20%;
 }
 
 li a{
@@ -90,7 +96,7 @@ li a{
 }
 
 li.completed {
-    background: #f2a8a8;
+    background: rgb(255, 131, 131);
     text-decoration: line-through;
 }
 .delete-btn {
